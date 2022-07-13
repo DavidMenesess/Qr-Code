@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --body-bg-color: hsl(212, 45%, 89%);
+    --card-bg-color: hsl(0, 0%, 100%);
+    --title-color: hsl(218, 44%, 22%);
+    --paragraph-color: hsl(220, 15%, 55%);
+}
+
+body{
+    background-color: var(--body-bg-color);
+}
+
+.card{
+    background-color: var(--card-bg-color);
+    text-align: center;
+    width: 240px;
+    height: 375px;
+    margin: 0 auto;
+    margin-top: 180px;
+    padding: 12px;
+    border-radius: 14px;
+    box-shadow: 0 0 15px 0 hsl(225, 33%, 83%);
+
+}
+
+.card__img{
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.title{
+    font-size: medium;
+    font-weight: 700;
+    font-family: 'Red Hat Display', sans-serif;
+    color: var(--title-color);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.text{
+    font-size:small;
+    font-weight: 400;
+    font-family: 'Red Hat Display', sans-serif;
+    color: var(--paragraph-color);
+}
